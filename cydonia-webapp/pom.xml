@@ -5,8 +5,7 @@
 	<artifactId>cydonia-webapp</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cydonia-webapp Maven Webapp</name>
-	<url>http://maven.apache.org</url>
+	<name>cydonia Webstart</name>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -88,4 +87,10 @@
     </plugins>
   </build>
   
+  <organization>
+  	<name>encala Software</name>
+  	<url>http://encala.de</url>
+  </organization>
+  <url>http://encala.de</url>
+  <description>A WebApplication that enables Webstart for cydonia game.</description>
 </project>
