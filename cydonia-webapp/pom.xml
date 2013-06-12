@@ -57,7 +57,7 @@
 		            		<groupId>de.findus</groupId>
 		            		<artifactId>cydonia</artifactId>
 		            		<version>0.0.1-SNAPSHOT</version>
-		            		<mainClass>de.findus.cydonia.main.ServerBrowser</mainClass>
+		            		<mainClass>de.findus.cydonia.main.CydoniaLauncher</mainClass>
 	          			</jarResource>
 	        		</jarResources>
 		      	</jnlpFile>
