@@ -4,7 +4,7 @@
 	<groupId>de.encala</groupId>
 	<artifactId>cydonia-webapp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>cydonia Webstart</name>
 	<dependencies>
 		<dependency>
@@ -56,7 +56,7 @@
 		          		<jarResource>
 		            		<groupId>de.findus</groupId>
 		            		<artifactId>cydonia</artifactId>
-		            		<version>0.0.1-SNAPSHOT</version>
+		            		<version>0.6.0</version>
 		            		<mainClass>de.findus.cydonia.main.CydoniaLauncher</mainClass>
 	          			</jarResource>
 	        		</jarResources>

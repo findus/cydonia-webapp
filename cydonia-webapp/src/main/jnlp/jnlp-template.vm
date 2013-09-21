@@ -17,5 +17,6 @@
     <j2se version="$j2seVersion"/>
 $dependencies
   </resources>
-  <application-desc main-class="$mainClass"></application-desc>
+  <application-desc main-class="$mainClass">
+  </application-desc>
 </jnlp>
