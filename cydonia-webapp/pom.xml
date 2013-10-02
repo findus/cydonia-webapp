@@ -51,7 +51,19 @@
 		    	<jnlpFiles>
 		      		<jnlpFile>
 		        	<templateFilename>jnlp-template.vm</templateFilename>
-		        	<outputFilename>cydonia.jnlp</outputFilename>
+		        	<outputFilename>cydonia_offline.jnlp</outputFilename>
+		        	<jarResources>
+		          		<jarResource>
+		            		<groupId>de.findus</groupId>
+		            		<artifactId>cydonia</artifactId>
+		            		<version>0.6.0</version>
+		            		<mainClass>de.findus.cydonia.main.CydoniaLauncher</mainClass>
+	          			</jarResource>
+	        		</jarResources>
+		      	</jnlpFile>
+		      	<jnlpFile>
+		        	<templateFilename>jnlp-template-online.vm</templateFilename>
+		        	<outputFilename>cydonia_online.jnlp</outputFilename>
 		        	<jarResources>
 		          		<jarResource>
 		            		<groupId>de.findus</groupId>
