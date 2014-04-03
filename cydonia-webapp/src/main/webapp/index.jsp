@@ -29,7 +29,14 @@ body {
 
 #sidebar {
 	float: right;
+	width: 200px;
 	margin-top: 20px;
+	color: #cc5;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: #cc5;
 }
 
 #sidebar p {
@@ -37,7 +44,7 @@ body {
 	color: #ff5;
 }
 
-a.startbutton {
+#sidebar a.startbutton {
 	border: 3px solid #ff0;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -73,6 +80,9 @@ td {
 <p>Play now!</p>
 <a class="startbutton" href="webstart/cydonia_online.jnlp">Join official Server</a><br/><br/><br/>
 <a class="startbutton" href="webstart/cydonia_offline.jnlp">Play offline</a><br/><br/><br/>
+<br/>
+<br/>
+Send feedback to <a href="mailto:cydonia43@encala.de">cydonia43@encala.de</a>
 </div>
 
 <div id="content">

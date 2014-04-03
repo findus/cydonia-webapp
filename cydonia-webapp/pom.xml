@@ -104,7 +104,7 @@
   	<url>http://encala.de</url>
   </organization>
   <url>http://encala.de</url>
-  <description>A WebApplication that enables Webstart for cydonia game.</description>
+  <description>A WebApplication that enables Webstart for the game cydonia{4,3}.</description>
   <properties>
   	<cydonia_version>0.6.1</cydonia_version>
   </properties>
