@@ -9,14 +9,52 @@
 <!--
 body {
 	text-align: center;
+	background-color: black;
+}
+
+#logo {
+	margin: 30px 0;
+}
+
+#main {
+	margin: auto;
+	width: 800px;
+}
+
+#content {
+	background-color: #ddd;
+	width: 600px;
+	padding: 5px;
+}
+
+#sidebar {
+	float: right;
+	margin-top: 20px;
+}
+
+#sidebar p {
+	font-size: 2em;
+	color: #ff5;
 }
 
 a.startbutton {
-	border: 1px solid #009;
+	border: 3px solid #ff0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	color: #009;
-	background-color: #9cf;
+	background-color: #ffa;
 	padding: 10px;
 	margin-top: 30px;
+	width: 100%;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+td {
+	padding: 0 5px;
 }
 -->
 </style>
@@ -24,32 +62,43 @@ a.startbutton {
 
 
 <body>
-<h2>Cydonia 43</h2><br/><br/><br/>
-<a class="startbutton" href="webstart/cydonia_online.jnlp">Play on official Online-Server</a><br/><br/><br/>
-<a class="startbutton" href="webstart/cydonia_offline.jnlp">Play Offline</a><br/><br/><br/>
-<br/><br/><br/>
-<p>If you get asked if you trust the this application please confirm.</p>
-<p>If you think you didn't get the latest version please clear the cache of Java Webstart.</p><br/><br/><br/>
 
-<h2>Cheat Sheet</h2>
+<div id="main">
+
+<div id="logo">
+<img src="images/logo43_05.png" />
+</div>
+
+<div id="sidebar">
+<p>Play now!</p>
+<a class="startbutton" href="webstart/cydonia_online.jnlp">Join official Server</a><br/><br/><br/>
+<a class="startbutton" href="webstart/cydonia_offline.jnlp">Play offline</a><br/><br/><br/>
+</div>
+
+<div id="content">
+<p>If you get asked whether you trust this application please confirm.</p>
+<p>If you think you didn't get the latest version please clear the cache of Java Webstart.</p><br/>
+
+<h2>Controls</h2>
 <table style="text-align:left; margin:auto;">
-<tr><td>vorwärts</td><td>W</td></tr>
-<tr><td>rückwärts</td><td>S</td></tr>
-<tr><td>links</td><td>A</td></tr>
-<tr><td>rechts</td><td>D</td></tr>
-<tr><td>springen</td><td>Shift</td></tr>
+<tr><td>forward</td><td>W</td></tr>
+<tr><td>backward</td><td>S</td></tr>
+<tr><td>left</td><td>A</td></tr>
+<tr><td>right</td><td>D</td></tr>
+<tr><td>jump</td><td>Shift</td></tr>
 <tr><td colspan="2">&nbsp;</td></tr>
-<tr><td>Umsehen</td><td>Maus</td></tr>
+<tr><td>look around</td><td>mouse</td></tr>
 <tr><td colspan="2">&nbsp;</td></tr>	
-<tr><td>letztes Equipment</td><td>pageUp oder Mausrad</td></tr>
-<tr><td>nächstes Equipment</td><td>pageDown oder Mausrad</td></tr>
-<tr><td>Equipment benutzen 1</td><td>linke Maustaste</td></tr>
-<tr><td>Equipment benutzen 2</td><td>rechte Maustaste</td></tr>
+<tr><td>last equipment</td><td>pageUp or mouse wheel</td></tr>
+<tr><td>next equipment</td><td>pageDown or mouse wheel</td></tr>
+<tr><td>use equipment</td><td>mouse buttons</td></tr>
 <tr><td colspan="2">&nbsp;</td></tr>	
-<tr><td>Spielstand anzeigen</td><td>Tab</td></tr>
+<tr><td>show score</td><td>tab</td></tr>
 <tr><td colspan="2">&nbsp;</td></tr>	
-<tr><td>Menü öffnen / schließen&nbsp;&nbsp;</td><td>Esc</td></tr>
+<tr><td>open / close menu</td><td>esc</td></tr>
 </table>
 </p>
+</div>
+</div>
 </body>
 </html>
